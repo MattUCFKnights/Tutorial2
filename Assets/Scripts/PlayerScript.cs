@@ -29,7 +29,7 @@ public class PlayerScript : MonoBehaviour
         anim = GetComponent<Animator>();
         rd2d = GetComponent<Rigidbody2D>();
         score.text = "Coins: " + scoreValue.ToString();
-        lives.text = "Lives:" + livesValue.ToString();
+        lives.text = "Lives: " + livesValue.ToString();
         win.text = "";
         lose.text = "";
     }
